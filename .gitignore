@@ -2,9 +2,14 @@
 *.iml
 /shelf/
 /workspace.xml
+/.idea/material_theme_project_new.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
 # Editor-based HTTP Client requests
 /.idea/
 /httpRequests/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
