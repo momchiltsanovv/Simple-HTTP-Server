@@ -53,7 +53,7 @@ To test the server using telnet, follow these steps:
 If telnet is not installed, you may need to install it first. On Windows, you can enable it via Control Panel. On Linux, you can install it using your package manager (e.g., sudo apt install telnet).
 <br>
 <br>
-For macOS, you can install telnet using Homebrew. If you don't have Homebrew installed, you can install it by running the following command in your terminal:
+For macOS, you can install telnet using Homebrew:
 ```bash
 brew install telnet
 ```
