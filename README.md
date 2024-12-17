@@ -7,6 +7,7 @@ This project demonstrates how to create a simple HTTP server in Java using the `
 -   [Introduction](#introduction)
 -   [Features](#features)
 -   [Getting Started](#getting-started)
+-   [Usage](#usage)
 -   [Testing with Telnet](#testing-with-telnet)
 -   [Limitations](#limitations)
 -   [License](#license)
@@ -36,7 +37,11 @@ To run this project, you need to have Java Development Kit (JDK) installed on yo
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/simple-http-server.git
+## Usage
+Once the server is running, open your web browser and navigate to:
 
+http://localhost:8080
+You should see the current date displayed in your browser.
 
 ## Testing with Telnet
 To test the server using telnet, follow these steps:
