@@ -39,9 +39,41 @@ To run this project, you need to have Java Development Kit (JDK) installed on yo
    git clone https://github.com/yourusername/simple-http-server.git
 ## Usage
 Once the server is running, open your web browser and navigate to:
+<br>
+When you connect to this server using browser of your choice,
+it will spin endlessly but on server side you will see following lines on your console:
+<br>
+(NOTE: some lines are going to be different. Depends on your computer)
+
+```bash
+Listening on port 8080 ...
+GET / HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+DNT: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+```
+<br>
 
 http://localhost:8080
-You should see the current date displayed in your browser.
+You should see the current date displayed in your browser in this format.
+<br>
+(NOTE: this is after running the commented code!)
+```bash
+Tue Dec 17 21:18:28 EET 2024
+```
 
 ## Testing with Telnet
 To test the server using telnet, follow these steps:
