@@ -94,6 +94,6 @@ brew install telnet
 	This implementation does not handle different types of HTTP requests or serve static files.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 This README now provides complete instructions for users on how to set up and test the HTTP server, including how to install necessary tools based on their operating system.
