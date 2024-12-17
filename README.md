@@ -7,11 +7,8 @@ This project demonstrates how to create a simple HTTP server in Java using the `
 -   [Introduction](#introduction)
 -   [Features](#features)
 -   [Getting Started](#getting-started)
--   [Usage](#usage)
--   [Code Structure](#code-structure)
 -   [Testing with Telnet](#testing-with-telnet)
 -   [Limitations](#limitations)
--   [Further Reading](#further-reading)
 -   [License](#license)
 
 ## Introduction
@@ -40,3 +37,26 @@ To run this project, you need to have Java Development Kit (JDK) installed on yo
    ```bash
    git clone https://github.com/yourusername/simple-http-server.git
 
+
+## Testing with Telnet
+To test the server using telnet, follow these steps:
+	1.	Open your terminal or command prompt.
+	2.	Connect to the server by running the following command:
+```bash
+   telnet localhost 8080
+```
+If telnet is not installed, you may need to install it first. On Windows, you can enable it via Control Panel. On Linux, you can install it using your package manager (e.g., sudo apt install telnet).
+<br>
+<br>
+For macOS, you can install telnet using Homebrew. If you don't have Homebrew installed, you can install it by running the following command in your terminal:
+```bash
+brew install telnet
+```
+## Limitations
+   The server can only handle one client at a time. If a request takes too long to process, subsequent requests will have to wait.
+	This implementation does not handle different types of HTTP requests or serve static files.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+This README now provides complete instructions for users on how to set up and test the HTTP server, including how to install necessary tools based on their operating system.
