@@ -26,7 +26,7 @@ Java provides excellent networking support, allowing the development of client-s
 
 To run this project, you need to have Java Development Kit (JDK) installed on your machine. You can download it from [Oracle's official website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or use OpenJDK.
 
-### Prerequisites
+### Requirements
 
 -   Java JDK 8 or higher
 -   An IDE (like Eclipse, IntelliJ IDEA) or a simple text editor
@@ -36,7 +36,7 @@ To run this project, you need to have Java Development Kit (JDK) installed on yo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/simple-http-server.git
+   git clone https://github.com/momchiltsanovv/simple-http-server.git
 ## Usage
 Once the server is running, open your web browser and navigate to:
 <br>
