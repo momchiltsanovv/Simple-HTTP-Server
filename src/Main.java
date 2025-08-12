@@ -23,6 +23,7 @@ public class Main {
                 System.out.println(line);
                 line = reader.readLine();
             }
+
 //            try (Socket socket = server.accept()) { // socket send and receive from clients
 //                Date today = new Date();
 //                String httpResponse = "HTTP/1.1 200 OK\r\n\r\n" + today;
