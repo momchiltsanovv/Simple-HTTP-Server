@@ -22,7 +22,7 @@ public class Main {
             while (!line.isEmpty()) {
                 System.out.println(line);
                 line = reader.readLine();
-            }
+            } 
 
 //            try (Socket socket = server.accept()) { // socket send and receive from clients
 //                Date today = new Date();
